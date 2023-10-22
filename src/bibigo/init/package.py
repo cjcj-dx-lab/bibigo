@@ -4,8 +4,8 @@ from pathlib import Path
 from rich.console import Console
 from rich.panel import Panel
 
-from ..utils import read, write, STATIC_DIR
 from ..exceptions import CancelInit
+from ..utils import STATIC_DIR, read, write
 
 console = Console(width=88)
 

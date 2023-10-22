@@ -1,7 +1,7 @@
 import json
-from typing import Union
-from pathlib import Path
 import pkgutil
+from pathlib import Path
+from typing import Union
 
 STATIC_DIR = "static"
 
